@@ -1,13 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* banar part */
 header>section {
     height: 650px;
-    width: 1450px;
+    width: 1500px;
     background-image: url(../assets/Hero-bg.png);
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +29,11 @@ header>section {
 .hero_section .banar_image img {
     height: 250px;
     width: 300px;
-    /* background-color: aqua; */
 }
 
 .hero_section .hero_hedding {
     text-align: center;
+    text-transform: capitalize;
 }
 
 .hero_section .hero_hedding h1 {
@@ -48,7 +51,7 @@ header>section {
     font-size: 16px;
 }
 
-button {
+header button {
     color: white;
     font-size: 20px;
     background-color: black;
@@ -57,6 +60,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 /* main section */
@@ -64,8 +68,9 @@ button {
 section .development {
     width: 1140px;
     min-height: 200px;
-    padding: 80 px 100px;
-    background-color: #FFFFFF;
+    padding: 80px 100px;
+    background-color:rgb(215, 218, 218);
+    border-radius: 15px;
     margin: 40px auto;
     display: flex;
     justify-content: center;
@@ -77,6 +82,10 @@ section .development {
 .development>h1 {
     font-size: 32px;
     margin: 10px;
+}
+.development>p{
+    margin-bottom:30px;
+    text-align: center;
 }
 
 .development .containar {
@@ -95,10 +104,33 @@ section .development {
     margin: 10px;
     padding: 10px;
     width: 390px;
+    text-transform: capitalize;
 }
 
 .container_discription p {
     width: 390px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.container_discription .btn{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.containar1,
+.containar3 {
+    background-color: #eaeaec;
+    border-radius: 15px;
 }
 
 /* footer section */
@@ -108,7 +140,7 @@ section .development {
     justify-content: space-between;
     align-items: center;
     background-color: #eaeaec;
-    width: 1450px;
+    width: 1500px;
     height: 80px;
     padding: 30px 50px;
 }
