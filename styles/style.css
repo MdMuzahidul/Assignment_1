@@ -43,7 +43,8 @@ header>section {
     text-align: center;
     padding: 10px;
 }
-.hero_section .hero_discription p{
+
+.hero_section .hero_discription p {
     font-size: 16px;
 }
 
@@ -57,3 +58,47 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* main section */
+
+section .development {
+    width: 1140px;
+    min-height: 200px;
+    padding: 80 px 100px;
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.development>h1 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+.development .containar {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.development .development_container {
+    display: flex;
+    padding: 48px;
+}
+
+.container_discription h3 {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    width: 390px;
+}
+
+.container_discription p {
+    width: 390px;
+}
+
+.development_image {}
