@@ -69,7 +69,7 @@ section .development {
     width: 1140px;
     min-height: 200px;
     padding: 80px 100px;
-    background-color:rgb(215, 218, 218);
+    background-color: rgb(215, 218, 218);
     border-radius: 15px;
     margin: 40px auto;
     display: flex;
@@ -83,8 +83,9 @@ section .development {
     font-size: 32px;
     margin: 10px;
 }
-.development>p{
-    margin-bottom:30px;
+
+.development>p {
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -113,7 +114,8 @@ section .development {
     padding: 10px;
     text-transform: capitalize;
 }
-.container_discription .btn{
+
+.container_discription .btn {
     background-color: white;
     color: black;
     text-decoration: underline;
@@ -121,7 +123,7 @@ section .development {
     border: 1px solid black;
     padding: 10px;
     border-radius: 5px;
-    display:block;
+    display: block;
     margin: 20px;
     font-size: 20px;
     cursor: pointer;
@@ -136,35 +138,73 @@ section .development {
 
 /* inspiration section */
 
-.insparation{
+.insparation {
     width: 1140px;
     min-height: 400px;
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
+
 }
- .insparation h1{
+
+.insparation>h1 {
     text-align: center;
     text-transform: capitalize;
     margin: 10px;
     padding: 10px;
- }
- .insparation p{
+    font-size: 32px;
+
+}
+
+.insparation>p {
     padding: 0 144px;
     text-align: center;
     margin-bottom: 20px;
- }
- .insparation .insparation-ifram{
+    font-size: 16px;
+}
+
+.insparation .insparation-ifram {
     padding: 20px;
     border-radius: 15px;
     background-color: #eaeaec;
- }
- .insparation .insparation-ifram iframe{
+}
+
+.insparation .insparation-ifram iframe {
     border-radius: 15px;
- }
+}
+
+/* target section */
+.my_target {
+    width: 1140px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto 30px auto;
+}
+
+.my_target h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 10px;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.my_target p {
+    padding: 0 144px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.my_target .target_containers {
+    display: flex;
+    padding: 20px;
+}
 
 /* footer section */
 
