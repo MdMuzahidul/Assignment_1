@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* banar part */
+header>section {
+    height: 650px;
+    width: 1450px;
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero_section {
+    height: 580px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_section .banar_image img {
+    height: 250px;
+    width: 300px;
+    /* background-color: aqua; */
+}
+
+.hero_section .hero_hedding {
+    text-align: center;
+}
+
+.hero_section .hero_hedding h1 {
+    margin: 10px;
+    font-size: 64px;
+}
+
+.hero_section .hero_discription {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+}
+.hero_section .hero_discription p{
+    font-size: 16px;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
