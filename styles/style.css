@@ -101,4 +101,26 @@ section .development {
     width: 390px;
 }
 
-.development_image {}
+/* footer section */
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaec;
+    width: 1450px;
+    height: 80px;
+    padding: 30px 50px;
+}
+
+.foot .foot-logo {
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.foot p {
+    font-size: 20px;
+    padding: 0 20px;
+}
