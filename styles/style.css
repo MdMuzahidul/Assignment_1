@@ -186,7 +186,7 @@ section .development {
     margin: 0 auto 30px auto;
 }
 
-.my_target h1 {
+.my_target>h1 {
     text-align: center;
     text-transform: capitalize;
     margin: 10px;
@@ -194,7 +194,7 @@ section .development {
     font-size: 32px;
 }
 
-.my_target p {
+.my_target>p {
     padding: 0 144px;
     text-align: center;
     margin-bottom: 20px;
@@ -203,7 +203,41 @@ section .development {
 
 .my_target .target_containers {
     display: flex;
-    padding: 20px;
+    gap: 10px;
+}
+
+.my_target .target_containers .container_items {
+    width: 364px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.my_target .target_containers .container_items h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.my_target .target_containers .container_items p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.my_target .target_containers .container_items a {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.my_target .target_containers .item1 {
+    background-color: #d5d5dc;
+}
+
+.my_target .target_containers .item2 {
+    background-color: #b0b0e8;
+}
+
+.my_target .target_containers .item3 {
+    background-color: #a5a5b3;
 }
 
 /* footer section */
