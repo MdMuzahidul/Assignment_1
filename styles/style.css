@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 /* banar part */
@@ -112,12 +113,13 @@ section .development {
     width: 390px;
     margin: 10px;
     padding: 10px;
+    color: #0D1321;
     text-transform: capitalize;
 }
 
 .container_discription .btn {
     background-color: white;
-    color: black;
+    color: #0D1321;
     text-decoration: underline;
     border: none;
     border: 1px solid black;
@@ -163,6 +165,7 @@ section .development {
     text-align: center;
     margin-bottom: 20px;
     font-size: 16px;
+    color: #0D1321;
 }
 
 .insparation .insparation-ifram {
@@ -199,6 +202,7 @@ section .development {
     text-align: center;
     margin-bottom: 20px;
     font-size: 16px;
+    color: #0D1321;
 }
 
 .my_target .target_containers {
@@ -221,6 +225,7 @@ section .development {
 .my_target .target_containers .container_items p {
     font-size: 16px;
     margin-bottom: 5px;
+    color: #0D1321;
 }
 
 .my_target .target_containers .container_items a {
@@ -330,4 +335,5 @@ section .development {
 .foot p {
     font-size: 20px;
     padding: 0 20px;
+    color: #0D1321;
 }
